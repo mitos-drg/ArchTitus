@@ -2,6 +2,7 @@ mesa
 xorg
 xorg-xinit
 xterm
+rxvt-unicode
 alsa-plugins
 alsa-utils
 ark
