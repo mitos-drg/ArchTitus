@@ -25,9 +25,9 @@ if [[ "${FS}" == "luks" ]]; then
 sed -i "s%GRUB_CMDLINE_LINUX_DEFAULT=\"%GRUB_CMDLINE_LINUX_DEFAULT=\"cryptdevice=UUID=${encryped_partition_uuid}:ROOT root=/dev/mapper/ROOT %g" /etc/default/grub
 fi
 
-echo -e "Installing CyberRe Grub theme..."
+echo -e "Installing GrubArch Grub theme..."
 THEME_DIR="/boot/grub/themes"
-THEME_NAME=CyberRe
+THEME_NAME=GrubArch
 echo -e "Creating the theme directory..."
 mkdir -p "${THEME_DIR}/${THEME_NAME}"
 echo -e "Copying the theme..."
