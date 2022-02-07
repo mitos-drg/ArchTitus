@@ -2,7 +2,6 @@ mesa
 xorg
 xorg-xinit
 xterm
-rxvt-unicode
 alsa-plugins
 alsa-utils
 ark
@@ -29,6 +28,7 @@ grub-customizer
 haveged
 iptables-nft
 kate
+kitty
 libdvdcss
 libtool
 linux
