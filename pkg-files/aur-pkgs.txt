@@ -1,1 +1,3 @@
-
+auto-cpufreq-git
+nerd-fonts-fira-code
+polybar
