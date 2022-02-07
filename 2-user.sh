@@ -40,6 +40,8 @@ esac
 
 export PATH=$PATH:~/.local/bin
 cp -r ~/ArchTitus/dotfiles/* ~/.config/
+cp ~/ArchTitus/.Xresources ~/.Xresources
+cp ~/ArchTitus/.Xnord ~/.Xnord
 echo -ne "
 -------------------------------------------------------------------------
                     SYSTEM READY FOR 3-post-setup.sh
